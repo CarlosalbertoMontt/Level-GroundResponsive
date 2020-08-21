@@ -1,0 +1,407 @@
+*{
+  box-sizing: border-box;
+}
+
+header{
+  height: 700px;
+  width: 100%;
+  background-color: #65768A;
+  font-family: "Arial";
+  color: white;
+}
+.start{
+  height: 100px;
+}
+
+.donate{
+  border: white;
+  background-color: white;
+  color: #65768A;
+  position: absolute;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+  font-family: "Arial";
+  font-weight: bold;
+  margin-left: 30px;
+}
+.headerLinks{
+  list-style: none;
+  display: inline-block;
+  float: left;
+  width: 48%;
+}
+.headerLinks li{
+  display: inline-block;
+}
+.start img{
+  margin-right: 40%
+}
+
+.centerHeader{
+  margin-top: 0px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.centerHeader h1{
+  margin-top: 0;
+  font-size: 75px;
+}
+
+.centerHeader p{
+  font-size: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centerHeader span{
+  font-size: 35px;
+  font-weight: normal;
+}
+
+.whySection{
+  font-family: "Arial";
+  color: black;
+  text-align: center;
+  height: 500px;
+  width: 100%;
+}
+
+.whySection h1{
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 75px;
+}
+
+.whySection p{
+  font-size: 35px;
+  font-weight: bold;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.visitSection{
+  height: 700px;
+  width: 100%;
+  background-color: lightgrey;
+  font-family: "Arial";
+  color: black;
+}
+
+.visitSection a{
+  border: 1px solid black;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.visitSection h3{
+  font-size: 30px;
+}
+
+.visitSection img{
+  margin-top: 100px;
+  height: 350px;
+}
+
+.leftSide{
+  width: 50%;
+  float: left;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rightSide{
+  width: 50%;
+  float:left;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.volunteerSection{
+  font-family: "Arial";
+  color: black;
+  text-align: center;
+  height: 500px;
+  width: 100%;
+}
+
+.volunteerSection h1{
+  margin-top: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 75px;
+}
+.volunteerSection p{
+  font-size: 35px;
+  font-weight: bold;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.volunteerSection a{
+  border: 1px solid black;
+  padding: 10px;
+  color: black;
+  text-decoration: none;
+}
+
+footer{
+  height: 500px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+.icons{
+  margin: 0;
+  padding: 20px;
+  font-size: 50px;
+  list-style: none;
+}
+.icons li{
+  display: inline-block;
+}
+footer h4{
+  color: #17202E;
+}
+footer ul{
+  list-style: none;
+  padding: 0;
+
+}
+footer li{
+  display: inline-block;
+  padding-right: 10px;
+}
+footer a{
+  text-decoration: none;
+  color: white;
+}
+.leftFooter{
+  width: 75%;
+  float: left;
+}
+.address{
+  width: 25%;
+  float: left;
+}
+.taxSection{
+  border-top: 1px solid white;
+  width: 100%;
+  float: left;
+}
+.taxSection h3{
+  width: 95%;
+  float: left;
+}
+.taxSection img{
+  width: 5%;
+  float:left;
+}
+
+@media (min-width:425px) and (max-width: 768px)  {
+  body{
+    height: 100%;
+    width: 100%;
+  }
+  header a {
+    display: none;
+  }
+  header button{
+    display: none;
+  }
+  header img{
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+  }
+  .centerHeader{
+    margin-top: 20px;
+  }
+  .centerHeader h1{
+    font-size: 3em;
+  }
+  .centerHeader p{
+    font-size: 1.7em;
+
+  }
+  .whySection h1{
+    font-size: 2em;
+  }
+  .whySection p{
+    font-size: 1.3em;
+  }
+  .visitSection img{
+    margin-top: 0;
+    padding: 10px;
+    width: 100%;
+  }
+  .visitSection{
+    height: 1300px;
+  }
+  .visitSection .leftSide{
+    width: 100%;
+    float: left;
+    clear: right;
+  }
+
+  .visitSection .rightSide{
+    width: 100%;
+    float: left;
+  }
+
+  .volunteerSection h1{
+    font-size: 2em;
+  }
+  .volunteerSection p{
+    font-size: 1.0em;
+  }
+  footer{
+    height: 700px;
+  }
+  .address{
+    width: 100%;
+    float: left;
+  }
+}
+@media (min-width: 769px) and (max-width:1024px){
+  body{
+    height: 100%;
+    width: 100%;
+  }
+  header{
+    height: 550px;
+  }
+  header a{
+    display: none;
+  }
+  header button{
+    display: none;
+  }
+  header img{
+    margin-left:auto;
+    margin-right: auto;
+    display: block;
+  }
+  .centerHeader{
+    margin-top: 20px;
+  }
+  .centerHeader h1{
+    margin-top: 100px;
+    font-size: 2.5em;
+  }
+  .centerHeader p{
+    margin-top: 50px;
+    font-size: 2em;
+
+  }
+  .whySection h1{
+    font-size: 2.5em;
+  }
+  .whySection p{
+    font-size: 1.7em;
+  }
+  .visitSection img{
+    margin-top: 0;
+    padding: 10px;
+    width: 100%;
+  }
+  .visitSection{
+    height: 1200px;
+  }
+  .visitSection .leftSide{
+    width: 100%;
+    float: left;
+    clear: right;
+  }
+
+  .visitSection .rightSide{
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+  }
+  .volunteerSection{
+    height: 300px;
+  }
+  .volunteerSection h1{
+    font-size: 2em;
+  }
+  .volunteerSection p{
+    font-size: 1.0em;
+  }
+  footer{
+    height: 700px;
+  }
+  .address{
+    width: 100%;
+    float: left;
+  }
+}
+@media (min-width:1025px) and (max-width:1440px){
+  body{
+    height: 100%;
+    width: 100%;
+  }
+  header{
+    height: 550px;
+  }
+  .centerHeader{
+    margin-top: 0px;
+  }
+  .centerHeader h1{
+    margin-top: 0px;
+    font-size: 2.5em;
+  }
+  .centerHeader p{
+    margin-top: 50px;
+    font-size: 2em;
+
+  }
+  .whySection h1{
+    font-size: 2.5em;
+  }
+  .whySection p{
+    font-size: 1.77em;
+  }
+  .visitSection img{
+    margin-top: 0;
+    padding: 10px;
+    width: 100%;
+  }
+  .visitSection{
+    height: 700px;
+  }
+  .visitSection .leftSide{
+    width: 50%;
+    float: left;
+    clear: right;
+  }
+
+  .visitSection .rightSide{
+    width: 50%;
+    float: left;
+  }
+  .volunteerSection{
+    height: 300px;
+  }
+  .volunteerSection h1{
+    font-size: 2em;
+  }
+  .volunteerSection p{
+    font-size: 1.0em;
+  }
+  footer{
+    height: 700px;
+  }
+  .address{
+    width: 25%;
+    float: left;
+  }
+
+}
